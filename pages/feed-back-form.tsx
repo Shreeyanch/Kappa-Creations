@@ -3,7 +3,7 @@ import { useCallback } from "react";
 import Form from "../components/form";
 import styles from "./feed-back-form.module.css";
 
-const FeedBackForm: NextPageFeedBackFormType = () => {
+const FeedBackForm: NextPage = () => {
   const onLETTERLOGO2Click = useCallback(() => {
     window.open("https://www.samparka.info/");
   }, []);
